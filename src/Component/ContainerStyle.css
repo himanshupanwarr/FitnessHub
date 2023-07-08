@@ -1,0 +1,24 @@
+.Card-box{
+    margin: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    overflow-x:scroll;
+    overflow-y: hidden;
+}
+.Card-box::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    display: none;
+    
+}
+.Card-box::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 30px;
+    display: none;
+}
+h2{
+    margin-left:40px;
+    margin-top:30px;
+}

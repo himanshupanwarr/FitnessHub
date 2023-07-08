@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    height: 70px;
+    padding-bottom: 40px;
+}
+
+.containers{
+    display: inline-block;
+    margin:auto;
+
+}
+.nav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    line-height: 25px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+.nav:hover{
+    color:green
+}
+
